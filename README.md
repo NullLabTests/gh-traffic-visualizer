@@ -19,20 +19,20 @@ Clone this repository:
 ```bash
 git clone https://github.com/NullLabTests/gh-traffic-visualizer.git
 cd gh-traffic-visualizer
+```
 Install the required dependencies:
 
 ```bash
-
 pip install -r requirements.txt
 Usage
 Make sure you have authenticated with the GitHub API using gh CLI or a personal access token.
-
+```
 Run the following command to start the data collection and visualization process:
 
 ```bash
 python3 gh_traffic_visualizer.py
 You will be prompted to enter your GitHub username. The script will fetch traffic data for all your repositories and generate visualizations.
-
+```
 Example Output 
 ```bash
 
@@ -42,17 +42,19 @@ Found 10 repositories (non-forks).
 Fetching traffic data for ArXivEvolution ...
 Fetching traffic data for SelfImprovingAgent ...
 Fetching traffic data for VivaCell ...
-
+```
 ## Demo
 
 Here is a demo of the tool in action:
 
-[![Demo Video](assets/plot_thumbnail.png)](https://imgur.com/a/zirYN6R)
+[![Demo Video](assets/plot.png)](https://imgur.com/a/zirYN6R)
 
 
 ...
 
-Traffic data saved to all_traffic_report.json
+Traffic data is saved to all_traffic_report.json
+
 Matplotlib will display a bar chart of the clone statistics for your repositories.
+
 License
 This project is licensed under the BSD-3 License - see the LICENSE file for details.
