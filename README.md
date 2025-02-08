@@ -1,8 +1,8 @@
-# gh-traffic-visualizer
+# Gh-traffic-visualizer
 
 **gh-traffic-visualizer** is a Python tool that allows you to track and visualize GitHub traffic data for your repositories. By utilizing the GitHub API, it gathers clone and unique clone statistics for each of your repositories and presents the data in an easy-to-understand bar chart format.
 
-The tool is designed to help GitHub repository owners analyze traffic patterns and understand engagement with their repositories. It’s especially useful for users who want to track their own repositories' traffic and see how their code is being accessed over time.
+The tool is designed to help GitHub repository owners analyze traffic patterns and understand engagement with their repositories. It’s especially useful for users who want to track their own repositories&apos; traffic and see how their code is being accessed over time.
 
 ## Features
 
@@ -56,4 +56,3 @@ Traffic data saved to all_traffic_report.json
 Matplotlib will display a bar chart of the clone statistics for your repositories.
 License
 This project is licensed under the BSD-3 License - see the LICENSE file for details.
-
