@@ -57,4 +57,4 @@ Traffic data is saved to all_traffic_report.json
 Matplotlib will display a bar chart of the clone statistics for your repositories.
 
 License
-This project is licensed under the BSD-3 License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
